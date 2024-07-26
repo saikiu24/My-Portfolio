@@ -7,6 +7,8 @@ const smMenuLink1 = document.querySelector('.main-header__sm-menu-link--1')
 const smMenuLink2 = document.querySelector('.main-header__sm-menu-link--2')
 const smMenuLink3 = document.querySelector('.main-header__sm-menu-link--3')
 const smMenuLink4 = document.querySelector('.main-header__sm-menu-link--4')
+const projectBtn = document.querySelector('.home-hero__btn-theme')
+const contactBtn = document.querySelector('.home-hero__btn-theme')
 
 smMenuBtn.addEventListener('click', () => {
   smMenu.style.transitionDelay = '0s'
@@ -28,7 +30,7 @@ smMenuBtn.addEventListener('click', () => {
   smMenuLink4.style.transform = 'translateY(0)'
   smMenuLink4.style.opacity = '1'
 })
-
+// btn btn-theme about__btn-theme
 smMenuLinks.forEach((ele) => {
   ele.addEventListener('click', () => {
     smMenuLink4.style.transitionDelay = '0s'
